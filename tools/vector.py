@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_community.vectorstores.neo4j_vector import Neo4jVector
-from llm import llm, embeddings
+from llm import embeddings
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 from langchain import hub
